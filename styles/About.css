@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #161616;
+}
+
+.nav-section {
+    width: 85%;
+    margin: auto;
+}
+
+.navbar-section {
+    background-color: #161616;
+    color: white;
+}
+
+.navbar-section .nav-link {
+    color: white;
+}
+
+.navbar {
+    color: white;
+    padding-top: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-us-full-section {
+    margin-top: 50px;
+    background-color: #212121;
+    height: auto;
+    width: 95%;
+    position: relative;
+    left: 28px;
+    font-family: "Raleway", sans-serif;
+    overflow: hidden;
+}
+
+.about-us-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.about-left-section {
+    margin-left: 10px;
+    transform: translate(64px, -14px);
+}
+
+.about-right-section {
+    position: relative;
+    left: 185px;
+    top: -30px;
+}
+
+.about-design {
+    position: relative;
+    left: 70px;
+}
+
+.high-light {
+    transform: translate(0, 10px);
+}
+
+.about-para {
+    width: 52%;
+    font-weight: 100;
+}
+
+.about-sub-para {
+    font-weight: 100;
+}
+
+.about-design::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -69px;
+    width: 6%;
+    height: 3px;
+    background-color: #F8DA64;
+}
+
+.about-learn {
+    border: 1px solid #F8DA64;
+    color: #F8DA64;
+    padding: 8px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.about-card {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.underline {
+    margin-top: 50px;
+}
+
+.sub-heading {
+
+    text-align: center;
+    color: white;
+}
+
+.white {
+    margin-top: 50px;
+}
+
+.hr-link {
+    height: 1px;
+    display: block;
+    background: #fff;
+    width: 76%;
+    margin: auto;
+}
+
+.our-team-full-section {
+    font-family: "Raleway", sans-serif;
+    margin-top: 40px;
+}
+
+
+.our-team-line {
+    margin-left: 150px;
+    position: relative;
+    top: -20px;
+}
+
+.about-sub-para {
+    color: white;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+
+
+.team-member-list {
+    position: relative;
+    left: 28px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 200px;
+}
+
+.team-member-line-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+.team-1-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -220px;
+}
+
+.left-name {
+    position: relative;
+    left: -50px;
+    top: -80px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.left-name h1 {
+    font-size: 20px;
+}
+
+.middle-name {
+    top: -79px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.middle-name h1 {
+    font-size: 20px;
+}
+
+.last-name {
+    text-align: center;
+    color: white;
+}
+
+.modify-team-1-names {
+    position: relative;
+    top: 20px;
+    left: -50px;
+}
+
+.middle-name-1-modify {
+    position: relative;
+    left: 36px;
+}
+
+.last-1 {
+    position: relative;
+    left: -6px;
+    top: -80px;
+}
+
+.last-1 h1 {
+    font-size: 20px;
+}
+
+.team-member-line-2 {
+    margin-top: 220px;
+}
+
+.middle-2 {
+    position: relative;
+    left: -54px;
+}
+
+.last-2 {
+    transform: translate(-90px, -64px);
+}
+
+.last-2 h1 {
+    font-size: 20px;
+}
+
+.character-name {
+    position: relative;
+    top: -15px;
+}
+
+.modify-names {
+    position: relative;
+    top: 10px;
+}
+
+
+/* footer style starts here*/
+
+.footer {
+    margin-top: 70px;
+    background-image: url('/assets/footer-bg.cc00989cacc2122a.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    font-family: "Raleway", sans-serif;
+    overflow: hidden;
+
+
+}
+
+.footer-logo {
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+.fotter-part-1-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 60px;
+    gap: 5px;
+}
+
+.location-right {
+    font-size: 20px;
+    transform: translate(0, 7px);
+    color: rgb(11, 112, 119);
+}
+
+.adress {
+    position: relative;
+    top: 56px;
+    left: -108px;
+    color: rgb(11, 112, 119);
+}
+
+.footer-part-1-calling {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 100px;
+    gap: 6px;
+    color: rgb(11, 112, 119);
+}
+
+.footer-parts {
+    margin-top: 50px;
+}
+
+.footer-part-1-time {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-left: 100px;
+    gap: 6px;
+    color: rgb(11, 112, 119);
+}
+
+.footer-part-1-email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-left: 100px;
+    gap: 9px;
+    color: rgb(11, 112, 119);
+
+}
+
+.footer-courses {
+    position: relative;
+    top: -271px;
+    left: 500px;
+}
+
+.footer-courses-heading {
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-9px, 0);
+}
+
+.footer-course-list {
+    list-style: none;
+    margin-left: -40px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 300;
+}
+
+.footer-links {
+    position: relative;
+    top: -468px;
+    left: 55%;
+    line-height: 20px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-7px, 0);
+}
+
+.footer-links-1 {
+    list-style: none;
+    margin-left: -40px;
+    color: #000;
+    font-weight: 300;
+}
+
+.footer-map {
+    position: relative;
+    top: -580px;
+    left: 70%;
+}
+
+@media screen and (max-width: 480px) {
+    .about-us-full-section {
+        width: 90%;
+        height: 100%;
+    }
+
+    .about-us-section {
+        flex-direction: column;
+    }
+
+    .about-left-section {
+        transform: translate(-5px, -45px);
+    }
+
+    .about-right-section {
+        transform: translate(-153px, -27px);
+    }
+
+    .about-right-section h1 {
+        width: 60%;
+    }
+
+    .about-right-section p {
+        line-height: 30px;
+        width: 90%;
+    }
+
+    .about-learn {
+        display: none;
+    }
+
+    .about-card1 {
+        position: relative;
+        top: -48px;
+        left: 100px;
+    }
+
+    .white {
+        margin-top: 100px;
+    }
+
+    .our-team-full-section {
+        margin-top: 80px;
+        margin-bottom: -27%;
+    }
+
+    .modify-2 {
+        position: relative;
+        top: 63px;
+        left: -116px;
+    }
+
+    .modify-3 {
+        left: -100px;
+    }
+
+    .team-member-list {
+        margin-left: 20px;
+    }
+
+    .team-member-line-1 {
+        flex-direction: column;
+        height: 80%;
+        width: 80%;
+    }
+
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-1-names {
+        flex-direction: column;
+    }
+
+    .left-name {
+        transform: translate(-9px, -512px);
+    }
+
+    .middle-name {
+        transform: translate(-95px, -317px);
+    }
+
+    .last-name {
+        transform: translate(-35px, -71px);
+    }
+
+    .team-members-2 {
+        margin-top: -200px;
+    }
+
+    .member-1,
+    .member-2,
+    .member-3,
+    .member-4,
+    .member-5,
+    .member-6 {
+        padding-top: 10px;
+        height: 80%;
+        width: 80%;
+    }
+
+    .left-2 {
+        transform: translate(-68px, -493px);
+    }
+
+    .middle-2 {
+        transform: translate(-63px, -267px);
+    }
+
+    .last-2 {
+        transform: translate(-101px, -170px);
+    }
+
+    .about-sub-para {
+        width: 90%;
+        transform: translate(-103px, 0);
+    }
+
+    /*footer modified in 480px*/
+
+    .footer {
+        background-size: cover;
+        height: 880px;
+    }
+
+    .footer-logo {
+        margin-left: -35px;
+        position: relative;
+        top: 98px;
+    }
+
+    .footer-parts {
+        position: relative;
+        top: 20px;
+        margin-left: -35px;
+    }
+
+
+    .part-2 {
+        margin-top: 57%;
+    }
+
+    .footer-courses {
+        transform: translate(-431px, 10px);
+    }
+
+    .footer-links {
+        transform: translate(-17px, 13px);
+    }
+
+    .footer-map {
+        transform: translate(-236px, 211px);
+    }
+
+    /*footer section modified end here*/
+}
